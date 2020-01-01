@@ -1,0 +1,1 @@
+document.write('init webpack config');
