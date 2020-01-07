@@ -16,6 +16,10 @@ const baseConfig = {
         loader: 'babel-loader?cacheDirectory=true',
       }
     },
+    {
+      test: /\.tsx?$/,
+      use: 'ts-loader'
+    },
      {
       test: /.css$/,
       use: [
